@@ -479,6 +479,137 @@ body {
   color: white;
 }
 
+/* Expert Styles */
+
+.expert_container {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fafafa;
+}
+
+.expert_content {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.expert_content h2 {
+  color: #ff3147;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.expert_content h1 {
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+.expert_sub_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5em;
+}
+
+.expert_each {
+  width: 270px;
+  height: 233px;
+  margin-left: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+#expert_icon {
+  width: 37px;
+  height: 30px;
+}
+
+.expert_each h1 {
+  font-weight: 350;
+  margin: 10px 0;
+  font-size: 50px;
+}
+
+.expert_each p {
+  font-size: 18px;
+}
+
+.expert_each:hover {
+  box-shadow: 3px 6px 20px #672c2c1f;
+}
+
+/* Feedback Styles */
+.feedback_container {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feedback_content {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.feedback_content h2 {
+  color: #ff3147;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.feedback_content h1 {
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+.feedback_sub_content {
+  width: 831px;
+  height: auto;
+  text-align: left;
+}
+
+#feed_quote {
+  position: absolute;
+  width: 64px;
+  height: 45px;
+  top: -20px;
+  left: 0;
+  z-index: -1;
+}
+
+.feedback_sub_content p {
+  position: relative;
+  font-weight: 400;
+}
+
+.feedback_sub_content p span:nth-child(1) {
+  color: #ff3147;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.feedback_sub_content p span:nth-child(2) {
+  color: #808080;
+  text-transform: uppercase;
+}
+
+/* Footer */
+
+footer{
+  height: 310px;
+  background-color: #ff3147;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
 /* Responsive Styles */
 
 @media (max-width: 768px) {
@@ -490,4 +621,19 @@ body {
   .slide {
     min-width: 100%;
   }
+}
+
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff3147;
+  border-radius: 2px;
+  transition: all 0.2s ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(255, 49, 71, 0.7);
 }

@@ -14,4 +14,4 @@ The techstack used to develop the SPA is HTML, CSS and Javascript (VanillaJS).
 
 ## Links
 
-* The [Website](https://pages.github.com/) is deployed using [Github Pages](https://pages.github.com/).
+* The [Website](https://fyle-assignment-sand.vercel.app/) is deployed using [Vercel](https://vercel.com/).

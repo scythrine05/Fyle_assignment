@@ -41,9 +41,7 @@
               >
             </div>
           </div>
-          <div class="form-group contact_modal_btn">
-            contact us
-          </div>
+          <div class="form-group contact_modal_btn">contact us</div>
         </form>
       </div>
     </div>
@@ -93,11 +91,7 @@
       </div>
 
       <div class="slider">
-        <div
-          class="slides"
-          onmouseover="pauseSlides()"
-          onmouseout="resumeSlides()"
-        >
+        <div class="slides">
           <div class="slide">
             <div class="slide_overlay">
               <img
@@ -360,30 +354,21 @@
             <img id="mainImage" src="/assets/pro_1.png" alt="Main Image" />
           </div>
           <div class="project_img_content">
-            <div
-              class="content-item"
-              onclick="changeImage('/assets/pro_1.png', this)"
-            >
+            <div class="content-item" data-image="/assets/pro_1.png">
               <h3>Genderless Kei - Japan's Hot</h3>
               <p>
                 Set to launch on the manufacturer's new A330neo aircraft in
                 2017, it's offering lots of
               </p>
             </div>
-            <div
-              class="content-item"
-              onclick="changeImage('/assets/pro_2.png', this)"
-            >
+            <div class="content-item" data-image="/assets/pro_2.png">
               <h3>Better Strategy & Quality</h3>
               <p>
                 Set to launch on the manufacturer's new A330neo aircraft in
                 2017, it's offering lots of
               </p>
             </div>
-            <div
-              class="content-item"
-              onclick="changeImage('/assets/pro_3.png', this)"
-            >
+            <div class="content-item" data-image="/assets/pro_3.png">
               <h3>Genderless Kei - Japan's Hot</h3>
               <p>
                 Set to launch on the manufacturer's new A330neo aircraft in
@@ -453,7 +438,5 @@
     </footer>
 
     <script type="module" src="/main.js"></script>
-    <script src="./scripts/slider.js"></script>
-    <script src="./scripts/project.js"></script>
   </body>
 </html>
